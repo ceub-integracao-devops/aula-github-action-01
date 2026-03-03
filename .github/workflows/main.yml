@@ -1,3 +1,7 @@
+name: Exemplo basico de Github Actions
+
+on: [push]
+
 jobs:
   job_01:        
     runs-on: ubuntu-latest
